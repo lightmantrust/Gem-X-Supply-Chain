@@ -1,17 +1,33 @@
 // Gem-X Supply Chain Complete Code Package
 
-// Frontend: HTML + CSS + JavaScript
-// index.html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gem-X Supply Chain</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-  <div class="navbar">
-    <button class="tab-link" data-target="home">Home</button>
-    <button class="tab-link" data-target="invento...
+// Project Structure
+// ├── frontend
+// │   ├── index.html
+// │   ├── styles.css
+// │   └── main.js
+// ├── backend
+// │   ├── server.js
+// │   ├── models
+// │   │   └── Product.js
+// │   ├── controllers
+// │   │   └── productController.js
+// │   ├── routes
+// │   │   └── productRoutes.js
+// │   └── config
+// │       └── database.js
+// ├── .github
+// │   └── workflows
+// │       └── ci-cd.yml
+// ├── Dockerfile
+// └──...
+        }
+    ]
 }
+
+
+
+
+
+
+
+
