@@ -1,0 +1,17 @@
+// Gem-X Supply Chain Script Files
+
+// 1. Enhanced Prompt Functionality
+// Event Listener Setup
+document.querySelectorAll('.interactive-button').forEach(button => {
+  button.addEventListener('click', (e) => {
+    e.preventDefault();
+    console.log('Button clicked:', e.target.textContent);
+    alert('Action triggered: ' + e.target.textContent);
+  });
+});
+
+// 2. Activate All Buttons and Tabs
+// Dynamic Tab Activation
+document.querySelectorAll('.tab-link').forEach(tab => {
+  tab.ad...
+}
