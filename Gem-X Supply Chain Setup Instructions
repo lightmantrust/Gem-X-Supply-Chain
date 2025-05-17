@@ -1,0 +1,25 @@
+# Gem-X Supply Chain Setup Instructions
+
+## Prerequisites
+
+* Ensure you have a GitHub account.
+* Docker installed on your local machine.
+* Node.js installed (v18.x or higher).
+* MongoDB setup (Local or Cloud).
+
+## Cloning the Repository
+
+```bash
+git clone https://github.com/lightmantrust/Gem-X-Supply-Chain.git
+cd Gem-X-Supply-Chain
+```
+
+## Setting Up Environment Variables
+
+1. Create a `.env` file in the `backend` directory with the following content:
+
+```
+MONGODB_URI=your_mong...
+}
+
+```
